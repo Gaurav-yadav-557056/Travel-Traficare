@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+height: 2rem;
+width: 100%;
+background-color: black;
+display: flex;
+color: white;
+  align-items: center;
+} 
+.title{
+  margin: 2px;
+  display: flex;
+  padding-left: 0.5rem;
+}
+.logoImage{
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}
+.searchBar{
+  margin-left: 2.5rem;
+  height: 1.5rem;
+  width: 30%;
+  color: black;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchlogo{
+  height: 1rem;
+  padding-left: 9%;
+}
+.options{
+  width: 35rem;
+  margin-left: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.background{
+  height: 100%;
+  width: 100%;
+}
+.slideImage{
+  width: 50%;
+    height: 400px;
+    width: 800px;
+  background-image: url('makm-photography-u0irC_UnbOk-unsplash.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-content: space-evenly;
+}
